@@ -3,260 +3,219 @@
 #include <conio.h>
 #include <cstdlib>
 using namespace std;
+
 int main()
 {
-    cout << "Hikayemiz Arabistan'da geciyor. Gunlerden bir gun buyuk bir malikanede cinayet islenir. Malikane' nin sahibi Abdul Jalil bicaklanarak oldurulmustur. O gece malikanede bulunan herkes supheli konumundadir. " << endl;
-    cout << "Dedektif Mehmet Bey, herkesi sorgular." << endl;
-    cout << "Cinayet islendigi saatte ne yapiyordunuz?" << endl;
-    cout << "      Cevaplar:" << endl;
-    cout << endl;
-    cout << "Evin hizmetcisi: Gunluk islerimi bitirmis odama cekilmistim. Zaten o saatte bizim ortalarda gorunmemiz yasaktir. Ancak Bay Abdul Jalil beni evdeki muhtelif yerlerdeki dugmeye basarak cagirdiginda yanina gidebiliriz. O gece dugmeye basti ve yanina gittigimde yerde yatiyordu." << endl;
-    cout << endl;
-    cout << "Evin Hanimi Fayruz: Oturma odasinda cocuklarla birlikteydim. Zaten esim calisma odasinda olduruldu. Cocuklara sorabilirsiniz. Biz bagirtilara kostuk. Gittigimizde coktan olmustu." << endl;
-    cout << endl;
-    cout << "Evde misafir olarak kalan Bay Adams: Cinayet islendigi sirada kutuphanedeydim. Abdul Jalil Bey' e ait Arapca kitap koleksiyonundan bir kitabi okumaya baslamistim. Sesleri duyunca calisma odasina kostum ama muhterem olmustu. Hatta okumaya basladigim kitabin arasina ayrac dahi koydum. Buyurun kitapda burada." << endl;
-    cout << endl;
-    cout << "Gercekten de kitabin ilk sayfalarinin arasinda ayrac vardi." << endl;
-    cout << endl;
-    cout << "Dedektif Mehmet delilleri ve olay yerini tekrar inceler ve katili yakalar. Sizce katil kim?" << endl;
-    cout << endl;
-    cout << "Katilin hizmetci oldugunu dusunuyorsaniz 1' i yaziniz." << endl;
-    cout << endl;
-    cout << "Katilin Fayruz oldugunu dusunuyorsaniz 2' yi yaziniz." << endl;
-    cout << endl;
-    cout << "Katilin Bay Adams oldugunu dusunuyorsaniz 3' u yaziniz." << endl;
-    cout << endl;
-    cout << "Bu olayin bir intihar oldugunu dusunuyorsaniz 0' i yaziniz." << endl;
+    cout << "Ingilizce ogrenmeye ne dersiniz? Sanirim EVET diyorsunuz. Haydi o zaman ingilizce ogrenelim." << endl;
+    cout << "Ilk olarak kelime bilgisi ile baslayalim." << endl;
+    cout << endl << endl;
     system ("COLOR A0");
     getch ();
-    int x;
-    cin >> x;
-    switch (x)
-    {
-    case 1:
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 2:
-        cout << "UZGUNUM YANLIS YANIT VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 3:
-        cout << "TEBRIKLER DOGRU YANIT VERDINIZ. PUANINIZ '10'DIR." << endl;
-        break;
-    case 0:
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    }
-    cout << endl;
-    cout << "Yesil mantolu, kirmizi entarili ve siyah dugmeli. Bu nedir?" << endl;
-    cout << "A)karpuz , B)cilek , C)muz , D)kardan adam" << endl;
-    system ("COLOR 5F");
+    cout << "SPOR KELIMELERI;" << endl << endl << endl;
+    system ("COLOR B5");
     getch ();
-    char y;
-    cin >> y;
-    switch (y)
-    {
-    case 'A':
-        cout << "TEBRIKLER DOGRU YANIT VERDINIZ. PUANINIZ '10'DIR." << endl;
-        break;
-    case 'B':
-        cout << "UZGUNUM YANLIS YANIT VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'C':
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'D':
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    }
-    cout << endl;
-    cout << "Gozleri fener, gunduzleri soner. Bu nedir? " << endl;
-    cout << "A)isik , B)kanarya , C)yildiz , D)ay" << endl;
-    system ("COLOR CF");
-    getch ();
-    char a;
-    cin >> a;
-    switch (a)
-    {
-    case 'A':
-        cout << "UZGUNUM YANLIS YANIT VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'B':
-        cout << "UZGUNUM YANLIS YANIT VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'C':
-        cout << "TEBRIKLER DOGRU YANIT VERDINIZ. PUANINIZ '10'DIR." << endl;
-        break;
-    case 'D':
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    }
-    cout << endl;
-    cout << "Bakmasi guzel, almasi uzer. Bu nedir?" << endl;
-    cout << "A)gul , B)papatya ,  C)goz , D)lanet" << endl;
-    system ("COLOR B0");
-    getch ();
-    char b;
-    cin >> b;
-    switch (b)
-    {
-    case 'A':
-        cout << "TEBRIKLER DOGRU YANIT VERDINIZ. PUANINIZ '10'DIR." << endl;
-        break;
-    case 'B':
-        cout << "UZGUNUM YANLIS YANIT VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'C':
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'D':
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    }
-    cout << endl;
-    cout << "Kucuk mezar, dunyayi gezer. Bu nedir?" << endl;
-    cout << "A)turist , B)seyahat , C)ayakkabi , D)at" << endl;
-    system ("COLOR 8F");
-    getch ();
-    char c;
-    cin >> c;
-    switch (c)
-    {
-    case 'A':
-        cout << "UZGUNUM YANLIS YANIT VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'B':
-        cout << "UZGUNUM YANLIS YANIT VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'C':
-        cout << "TEBRIKLER DOGRU YANIT VERDINIZ. PUANINIZ '10'DIR." << endl;
-        break;
-    case 'D':
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    }
-    cout << endl;
-    cout << "Havada ucar, kanadi yok. Bu nedir?" << endl;
-    cout << "A)bulut , B)ucak , C)helikopter , D)kus" << endl;
-    system ("COLOR 0E");
-    getch ();
-    char z;
-    cin >> z;
-    switch (z)
-    {
-    case 'A':
-        cout << "TEBRIKLER DOGRU YANIT VERDINIZ. PUANINIZ '10'DIR." << endl;
-        break;
-    case 'B':
-        cout << "UZGUNUM YANLIS YANIT VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'C':
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'D':
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    }
-    cout << endl;
-    cout << "Ben iki hasretlinin arasinda dururum. Onlari konustururum. Bu nedir?" << endl;
-    cout << "A)kart , B)simge , C)telefon , D)telgraf" << endl;
+    cout << "Archery: Okculuk     Athletics: Atletizm     Baseball: Beyzbol     Basketball: Basketbol" << endl << endl ;
+    cout << "Boxing: Boks         Cycling: Bisiklet Yarislari                   Diving: Dalis" << endl << endl ;
+    cout << "Fencing: Eskrim      Teakwondo: Tekvando     Tennis: Tenis         Ice hockey: Buz hokeyi" << endl << endl ;
+    cout << "Ski Jumping: Kayakla atlama                  Snowboarding: Snowboard ' la yapilan bir nevi kayak cesidi" << endl << endl << endl;
     system ("COLOR 30");
     getch ();
-    char r;
-    cin >> r;
-    switch (r)
-    {
-    case 'A':
-        cout << "UZGUNUM YANLIS YANIT VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'B':
-        cout << "UZGUNUM YANLIS YANIT VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'C':
-        cout << "TEBRIKLER DOGRU YANIT VERDINIZ. PUANINIZ '10'DIR." << endl;
-        break;
-    case 'D':
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    }
-    cout << endl;
-    cout << "Kiri en az olan meyve hangisidir?" << endl;
-    cout << "A)kar , B)kiraz , C)kale , D)portakal" << endl;
-    system ("COLOR EC");
+    cout << "RENKLER;" << endl << endl << endl;
+    system ("COLOR B5");
     getch ();
-    char i;
-    cin >> i;
-    switch (i){
-        case 'A':
-        cout << "UZGUNUM YANLIS YANIT VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'B':
-        cout << "TEBRIKLER DOGRU YANIT VERDINIZ. PUANINIZ '10'DIR." << endl;
-        break;
-    case 'C':
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'D':
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    }
-    cout << endl;
-    cout << "Hangi kalem dusmez?" << endl;
-    cout << "A)kursun kalem , B)kara kalem , C)pilot kalem , D)uclu kalem" << endl;
-    system ("COLOR 70");
+    cout << "White: Beyaz      Black: Siyah        Red: Kirmizi     Green: Yesil      Blue: Mavi" << endl << endl;
+    cout << "Yellow: Sari      Orange: Turuncu     Pink: Pembe      Maroon: Bordo     Beige: Bej    " << endl << endl;
+    cout << "Gray: Gri         Light blue: Ac�k mavi     Dark green: Koyu yesil     Purple: Mor" << endl << endl;
+    cout << "Violet:Eflatun    Navy blue: Lacivert       Turquoise: Turkuaz         Brown: Kahverengi" << endl << endl;
+    cout << "Reddish: Kirmizimsi      Blueish: Mavimsi     Pinkish: Pembemsi      Yellowish: Sarimsi" << endl << endl;
+    cout << "Dark red: Koyu kirmizi   Light blue: Acik mavi                       Bright green: Parlak yesil" << endl << endl << endl;
+    system ("COLOR 47");
     getch ();
-    char s;
-    cin >> s;
-    switch (s){
-    case 'A':
-        cout << "UZGUNUM YANLIS YANIT VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'B':
-        cout << "UZGUNUM YANLIS YANIT VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    case 'C':
-        cout << "TEBRIKLER DOGRU YANIT VERDINIZ. PUANINIZ '10'DIR." << endl;
-        break;
-    case 'D':
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
-        break;
-    }
-    cout << endl;
-    cout << "Ag覺r suyun adi nedir?" << endl;
-    cout << "A)buzlanmis su , B)portakal suyu , C)visne suyu , D)kay覺s覺 suyu" << endl;
+    cout << "DOGA KELIMELERI;" << endl << endl << endl;
+    system ("COLOR B5");
+    getch ();
+    cout << "Nature: Doga      Earth: Yeryuzu      Tree: Agac     Flower: Cicek     Sea: Deniz" << endl << endl;
+    cout << "Plant: Dikmek     Forest: Orman       Lake: gol      Mountain: Dag     River: Nehir" << endl << endl;
+    cout << "Pond: Golet       Ocean: Okyanus      Star: Yildiz   The Moon: Ay      The Sun: Gunes" << endl << endl;
+    cout << "Cloud: Bulut      The Sky: Gokyuzu    Grass: Ot      Rain: Yagmur      Rainbow: Gokkusagi" << endl << endl;
+    cout << "Natural forces: Dogal afetler         Rainbow: Gokkusagi      Thunder: Gok gurultusu" << endl << endl;
+    cout << "Snow: Kar     Fog: Sis    Valley: Vadi    Plateau: Plato, yayla        Avalanche: Cig " << endl << endl;
+    cout << "Earthquake: Deprem        Landslide: Heyelan       Hoarfrost: Kiragi   Erosion: Erozyon" << endl << endl;
+    cout << "Ecosystem: Ekosistem      Habitat: Habitat         Eco-friendly / nature-friendly: Doga dostu" << endl << endl;
+    cout << "Forestation: Agaclandirma     Deforestation: Ormansizlasma    Wood: Odun / agaclik alan" << endl << endl << endl;
+    system ("COLOR 4F");
+    getch ();
+    cout << "OYUNCAKLAR VE OYUNLAR;" << endl << endl << endl;
+    system ("COLOR B5");
+    getch ();
+    cout << "Toy: Oyuncak     Ball: Top        Tren: Train    Car: Araba    Plane: Ucak" << endl << endl;
+    cout << "Truck: Kamyon    Chess: Satranc   Checkers: Dama   Backgammon: Tavla" << endl << endl;
+    cout << "Hopscotch: Seksek      Hide and seek: Saklambac     Chinese whispers: Kulaktan kulaga" << endl << endl;
+    cout << "Play dough: Oyun hamuru    Water gun: Su tabancasi    Bobo doll: Haciyatmaz" << endl << endl << endl;
     system ("COLOR A0");
     getch ();
-    char h;
-    cin >> h;
-    switch (h)
-    {
-    case 'A':
-        cout << "TEBRIKLER DOGRU YANIT VERDINIZ. PUANINIZ '10'DIR." << endl;
+    system("COLOR 48");
+    getch ();
+    cout << "SIMDI BIRAZ ALISTIRMA YAPALIM. ASAGIDAKI KELIMELERIN ANLAMLARINI YANLARINDA VERILEN NUMARAYI YAZINIZ." << endl;
+    cout << "TRUCK = ( 1. ARABA , 2.KAMYON , 3.TABANCA , 4.TREN )" << endl;
+    int a;
+    cin >> a;
+    switch (a) {
+    case '1':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP KAMYON OLACAKTI." << endl;
         break;
-    case 'B':
-        cout << "UZGUNUM YANLIS YANIT VERDINIZ. PUANINIZ '0'DIR." << endl;
+    case '2':
+        cout << "TEBRIKLER DOGRU CEVAP VERDINIZ." << endl;
         break;
-    case 'C':
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
+    case '3':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP KAMYON OLACAKTI." << endl;
         break;
-    case 'D':
-        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. PUANINIZ '0'DIR." << endl;
+    case '4':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP KAMYON OLACAKTI." << endl;
         break;
     }
     cout << endl;
-    cout << "Simdi IQ seviyeni hesaplayal覺m. Lutfen aldiginiz notu giriniz: " << endl;
-    int q;
-    cin >> q;
-    if ( q > 70 )
-    {
-        cout << "IQ SEVIYENIZ IYI DUZEYDE. BU GIDISLE BILIM INSANI BILE OLABILIRSINIZ." << endl;
+    system("COLOR 48");
+    getch ();
+    cout << "ARCHERY = ( 1. ATLETIZM , 2. OKCULUK , 3. TAVLA , 4. DAMA )" << endl ;
+    char b;
+    cin >> b;
+    switch (b) {
+    case '1':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP OKCULUK OLACAKTI." << endl;
+        break;
+    case '2':
+        cout << "TEBRIKLER DOGRU CEVAP VERDINIZ." << endl;
+        break;
+    case '3':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP OKCULUK OLACAKTI." << endl;
+        break;
+    case '4':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP OKCULUK OLACAKTI." << endl;
+        break;
     }
-    else if ( q <= 70 )
-    {
-        cout << "IQ SEVIYENIZ ORTA DUZEYDE. BOL BOL BEYNINIZI GELISTIRMEK ICIN BEYIN OYUNLARI OYNAYIN. " << endl;
+    cout << endl;
+    system("COLOR 48");
+    getch ();
+    cout << "WATER GUN = ( 1. YAGMUR , 2. KAR , 3. SU TABANCASI , 4. SU MAKINESI )" << endl;
+    char c;
+    cin >> c;
+    switch (c) {
+    case '1':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP SU TABANCASI OLACAKTI." << endl;
+        break;
+    case '2':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP SU TABANCASI OLACAKTI." << endl;
+        break;
+    case '3':
+        cout << "TEBRIKLER DOGRU CEVAP VERDINIZ." << endl;
+        break;
+    case '4':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP SU TABANCASI OLACAKTI." << endl;
+        break;
     }
-    else if ( q <= 50 )
-    {
-        cout << "IQ SEVIYENIZ COK DUSUK. BOL BOL BEYNINIZI GELISTIRMEK ICIN BEYIN OYUNLARI OYNAYIN. " << endl;
+    cout << endl;
+    system("COLOR 48");
+    getch ();
+    cout << "OCEAN = ( 1. OLTA , 2. DENIZ , 3. OKYANUS , 4. OKTAY )" << endl ;
+    char d;
+    cin >> d;
+    switch (d) {
+    case '1':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP OKYANUS OLACAKTI." << endl;
+        break;
+    case '2':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP OKYANUS OLACAKTI." << endl;
+        break;
+    case '3':
+        cout << "TEBRIKLER DOGRU CEVAP VERDINIZ." << endl;
+        break;
+    case '4':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP OKYANUS OLACAKTI." << endl;
+        break;
     }
+    cout << endl;
+    system("COLOR 48");
+    getch ();
+    cout << "RAINBOW = ( 1. HAYALET , 2. KUZEY ISIGI , 3. GOKKUSAGI , 4. HACIYATMAZ )" << endl;
+    char e;
+    cin >> e;
+    switch (e) {
+    case '1':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP GOKKUSAGI OLACAKTI." << endl;
+        break;
+    case '2':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP GOKKUSAGI OLACAKTI." << endl;
+        break;
+    case '3':
+        cout << "TEBRIKLER DOGRU CEVAP VERDINIZ." << endl;
+        break;
+    case '4':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP GOKKUSAGI OLACAKTI." << endl;
+        break;
+    }
+    cout << endl;
+    system("COLOR 48");
+    getch ();
+    cout << "DARK RED = ( 1. KOYU KIRMIZI , 2. KIRMIZIMSI , 3. ACIK KIRMIZI , 4. KIRMIZI )" << endl;
+    char f;
+    cin >> f;
+    switch (f) {
+    case '1':
+        cout << "TEBRIKLER DOGRU CEVAP VERDINIZ." << endl;
+        break;
+    case '2':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP KOYU KIRMIZI OLACAKTI." << endl;
+        break;
+    case '3':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP KOYU KIRMIZI OLACAKTI." << endl;
+        break;
+    case '4':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP KOYU KIRMIZI OLACAKTI." << endl;
+        break;
+    }
+    cout << endl;
+    system("COLOR 48");
+    getch ();
+    cout << "REDDISH = ( 1. KOYU KIRMIZI , 2. KIRMIZIMSI , 3. ACIK KIRMIZI , 4. KIRMIZI )" << endl;
+    char g;
+    cin >> g;
+    switch (g) {
+    case '1':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP KIRMIZIMSI OLACAKTI." << endl;
+        break;
+    case '2':
+        cout << "TEBRIKLER DOGRU CEVAP VERDINIZ." << endl;
+        break;
+    case '3':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP KIRMIZIMSI OLACAKTI." << endl;
+        break;
+    case '4':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP KIRMIZIMSI OLACAKTI." << endl;
+        break;
+    }
+    cout << endl;
+    system("COLOR 48");
+    getch ();
+    cout << "BEIGE = ( 1. BELGE , 2. BEJ , 3. BEL , 4. BEN )" << endl;
+    char h;
+    cin >> h;
+    switch (h) {
+    case '1':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP BEJ OLACAKTI." << endl;
+        break;
+    case '2':
+        cout << "TEBRIKLER DOGRU CEVAP VERDINIZ." << endl;
+        break;
+    case '3':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP BEJ OLACAKTI." << endl;
+        break;
+    case '4':
+        cout << "UZGUNUM YANLIS CEVAP VERDINIZ. DOGRU CEVAP BEJ OLACAKTI." << endl;
+        break;
+    }
+    cout << endl;
+    system("COLOR 48");
+    getch ();
     return 0;
 }
