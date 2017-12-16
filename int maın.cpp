@@ -1,46 +1,46 @@
 #include <iostream>
-#include <stdio.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 #include <conio.h>
-#include <cstdlib>
 using namespace std;
-int toplama () {
-    int x, y;
-    cout << "IKI SAYI GIRINIZ: " << endl;
-    cin >> x >> y;
-    return x + y;
-}
-int carpma () {
-    int z, t;
-    cout << "IKI SAYI GIRINIZ: " << endl;
-    cin >> z >> t;
-    return z * t;
-}
-float bolme () {
-    float a, r;
-    cout << "IKI SAYI GIRINIZ: " << endl;
-    cin >> a >> r;
-    return a / r;
-}
-int cýkarma () {
-    int ý, d;
-    cout << "IKI SAYI GIRINIZ: " << endl;
-    cin >> ý >> d;
-    return ý - d;
-}
+
 int main()
 {
-    cout
-    int s;
-    switch (s) {
-    case 1:
-        cout << toplama () << endl;
-    case 2:
-        cout << carpma () << endl;
-    case 3:
-        cout << bolme () << endl;
-    case 4:
-        cout << cýkarma() << endl;
-    }
-    getch ();
-    return 0;
+system ("COLOR 37");
+getch ();
+int tutsayi=0;
+int tahmin=0;
+int saniye=0;
+int kactahmin=0;
+
+
+
+saniye=time(NULL);
+srand(saniye);
+
+tutsayi=rand()%100+1;
+
+cout << "AKLINDAN BIR SAYI TUTTUM. BAKALIM BU SAYIYI BULABILECEK MISIN??" << endl;
+cout << "BASLA" << endl;
+soyle:
+    cout << "TAHMININ: " << endl;
+    scanf("%d",&tahmin );
+    if (tahmin<1 || tahmin>100) {
+        cout << "1-100 ARASINDA BIR SAYI SOYLER MISIN?" << endl;
+}
+kactahmin++;
+if(tahmin==tutsayi) {
+cout << "TEBRIKLER SAYIYI BULDUNUZ. BRAVO..." << endl;
+}
+
+else {
+if(tahmin>tutsayi) {
+cout << "KUCUK SAYI SOYLER MISIN?" << endl; goto soyle;
+
+}
+else { cout << "BUYUK SAYI SOYLER MISIN?" << endl; goto soyle; } }
+
+
+return 0;
 }
