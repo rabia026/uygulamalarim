@@ -1,0 +1,21 @@
+int sayi,sonuc;
+ 
+Console.Write("Sayýyý giriniz..");
+sayi = Convert.ToInt32(Console.ReadLine());
+ 
+if (sayi % 2 == 0)
+{
+Console.Write("Çifttir");
+sonuc = sayi / 2;
+ 
+Console.Write("girilen sayý çifttir " + sonuc);
+ 
+}
+else
+{
+Console.Write("Tektir.");
+ 
+sonuc = sayi * 2;
+Console.Write("girilen sayý tek {0}", sonuc);
+}
+Console.ReadKey();
