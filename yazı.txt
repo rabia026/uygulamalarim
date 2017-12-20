@@ -1,0 +1,13 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] strDizi = { "Ahmet", "Ali", "Veli", "Sema","Nedim","Haluk" };
+            int son = strDizi.Length - 1;
+            for (int i = son; i >= 0; --i)
+            {
+                Console.WriteLine(strDizi[i]);
+            }
+            Console.ReadKey();
+        }
+    }
