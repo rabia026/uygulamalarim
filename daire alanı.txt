@@ -1,0 +1,15 @@
+const double pi = 3.14;
+double r = new double();
+double alan = new double();
+ 
+Console.Write("Yarý çap = ");
+r = Convert.ToDouble(Console.ReadLine());
+ 
+alan = pi * r * r;
+ 
+Console.Write("Alan = {0}", alan);
+ 
+Console.ReadKey();
+}
+}
+}
