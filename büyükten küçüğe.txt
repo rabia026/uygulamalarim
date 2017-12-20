@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace ConsoleApplication1
+{
+class Program
+{
+static void Main(string[] args)
+{
+int x ;
+int y;
+Console.Write("1.sayýyý giriniz");
+x = Convert.ToInt32(Console.ReadLine());
+Console.Write("2.sayýyý giriniz");
+y = Convert.ToInt32(Console.ReadLine());
+if (x > y)
+Console.Write("{0}\n{1}", x, y);
+else 
+Console.Write("{0}\n{1}", y, x);
+Console.ReadKey();
+}
+}
+}
