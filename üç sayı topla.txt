@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+ 
+namespace ConsoleApplication1
+{
+class Program
+{
+static void Main(string[] args)
+{
+ 
+int x ;
+int y ;
+int z ;
+ 
+Console.Write("1.sayýyý Giriniz");
+x = Convert.ToInt32(Console.ReadLine());
+ 
+Console.Write("2.sayýyý Giriniz");
+y = Convert.ToInt32(Console.ReadLine());
+ 
+Console.Write("3.sayýyý Giriniz");
+z = Convert.ToInt32(Console.ReadLine());
+ 
+Console.Write("\n \tGirilen 3 Sayýnýn Toplamý={0}",x+y+z);
+ 
+Console.ReadKey();
+}
+}
+}
