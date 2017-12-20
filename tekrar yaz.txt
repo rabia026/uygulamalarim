@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+ 
+namespace ConsoleApplication1
+{
+class Program
+{
+static void Main(string[] args)
+{
+ 
+int x;
+int y;
+int z;
+ 
+Console.Write("1.sayýyý giriniz");
+x = Convert.ToInt32(Console.ReadLine());
+ 
+Console.Write("2.sayýyý giriniz");
+y = Convert.ToInt32(Console.ReadLine());
+ 
+Console.Write("3.sayýyý giriniz");
+z = Convert.ToInt32(Console.ReadLine());
+ 
+Console.WriteLine("Girilen 1.Sayý={0}", x);
+Console.WriteLine("Girilen 2.Sayý={0}", y);
+Console.WriteLine("Girilen 3.Sayý= "+ z);
+ 
+Console.ReadKey();
+}
+}
+}
