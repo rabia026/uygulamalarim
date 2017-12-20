@@ -1,0 +1,43 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace KureninHacmi
+{
+    public partial class Form1 : Form
+    {
+        double cap,yaricap, hacim;
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void buttonHesapla_Click(object sender, EventArgs e)
+        {
+            cap = Convert.ToDouble(textBoxKureninCapi.Text);
+            //Textbox'a girilen cap alınıyor
+            yaricap = cap / 2;
+            hacim = 4 * Math.PI * (Math.Pow(yaricap, 3)) / 3;
+            //Hacim Hesaplanıyor
+            //Math.PI = Pi sayısını tam olarak verir
+            //Math.Pow = Üs alma işlemini gerçekleştirir
+            if (radioButtonCM.Checked)
+            {//Eğer radio button seçili ise aşağıdaki işlemleri yap
+                labelKureninHacmiHesaplanmis.Text = hacim.ToString() + "cm³";
+                //Hacim cm cinsinden ekrana yazdırılıyor
+            }
+            else
+            {//www.programlamadersleri.com
+                labelKureninHacmiHesaplanmis.Text = hacim.ToString() + "m³";
+            }
+            
+        }
+    }
+}
