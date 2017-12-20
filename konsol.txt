@@ -1,0 +1,20 @@
+static void Main(string[] args) 
+  { 
+  int adet=0,toplam=0; 
+  int[] sayi=new int[5]; 
+  for (int k=0;k<5;k++) 
+  { 
+     Console.Write("{0}. sayýyý giriniz:",k); 
+     sayi[k]=int.Parse(Console.ReadLine()); 
+  } 
+  for (int k=0;k<5;k++) 
+  { 
+      if(sayi[k]%2==0) 
+      { 
+        adet++; 
+        toplam+=sayi[k]; 
+      } 
+  } 
+  Console.WriteLine("Ortalamasý={0}",toplam/adet); 
+  Console.ReadKey(); 
+  } 
