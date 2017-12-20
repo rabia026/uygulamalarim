@@ -1,0 +1,9 @@
+double k1, k2,hipotenus;
+Console.Write("Birinci Dik Kenarý Girin....:");
+k1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Ýkinci Dik Kenarý Girin....:");
+k2 = Convert.ToDouble(Console.ReadLine());
+//k1 ve k2nin karelerini toplamýný yapýp kare kökünü alýyoruz.
+hipotenus = Math.Sqrt((k1 * k1) + (k2 * k2));
+Console.WriteLine("Hipotenüs deðeri....:{0}",hipotenus);
+Console.ReadKey();
