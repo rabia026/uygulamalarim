@@ -1,0 +1,62 @@
+class Program
+    {
+        public static bool asalmi(int sayi)
+        {
+            bool durum = false;
+ 
+            int kontrol = 0;
+ 
+            for (int i = 2; i < sayi; i++)
+            {
+                if (sayi % i == 0) //www.ahmetcansever.com
+                {
+                    kontrol = 1;
+                    break;
+                }
+            }
+            if (kontrol == 1)
+            {
+                durum= false;
+            }
+            else
+            {//www.ahmetcansever.com
+                durum= true;
+            }
+ 
+            return durum;
+        }
+        static void Main(string[] args)
+        {
+            int sayac = 0;
+            Console.Write("Sayýyý Girin : ");
+            int s = Convert.ToInt32(Console.ReadLine());
+            
+            if(asalmi(s))
+            {
+                Console.WriteLine("{0} sayýsý Asal",s);
+            }
+            else
+            {
+                Console.WriteLine("{0} sayýsý asal deðil",s);
+            }
+ 
+            Console.WriteLine("===========================");
+            Console.WriteLine("Sonraki 5 Asal Sayý");
+            Console.WriteLine("===========================");
+ 
+            while (true)
+            {
+                s++;
+                if(asalmi(s)==true)
+                {
+                    Console.WriteLine("{0} sayýsý asal", s);
+                    sayac++;
+                    if (sayac == 5)
+                    {
+                        break;
+                    }
+                }
+            }
+            Console.ReadKey();
+        }
+    }
