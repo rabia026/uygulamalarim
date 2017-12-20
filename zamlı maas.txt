@@ -1,0 +1,12 @@
+static void Main(string[] args)
+        {
+            double maas, zamOran,zamliMaas;
+            Console.Write("Maaþý girin : ");
+            maas = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Zam oranýný girin (%) : ");
+            zamOran = Convert.ToDouble(Console.ReadLine());
+            zamliMaas = maas + (maas * zamOran / 100);
+            Console.WriteLine("Zamlý maaþ : {0}", zamliMaas);
+            Console.ReadKey();
+ 
+        }
