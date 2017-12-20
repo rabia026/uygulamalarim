@@ -1,0 +1,25 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            int cifttoplam = 0;
+            int tektoplam = 0;
+            int sayi = 0;
+            Console.Write("Bir sayý giriniz: ");
+            sayi = Convert.ToInt32(Console.ReadLine());
+           for (int i = 0; i < = sayi; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    cifttoplam += i;    
+                }
+                else
+                {
+                    tektoplam += i;    
+                }
+            }
+            Console.WriteLine(sayi+ " sayýsýna kadar tek sayýlarýn toplamý: " + tektoplam);
+            Console.WriteLine(sayi + " sayýsýna kadar çift sayýlarýn toplamý: " + cifttoplam);
+            Console.ReadKey();
+         }
+    }
