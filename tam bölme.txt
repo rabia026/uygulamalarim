@@ -1,0 +1,19 @@
+ static void Main(string[] args)
+        {
+            int sayi1, sayi2,kalan;
+            Console.Write("1. Sayýyý Girin : ");
+            sayi1=Convert.ToInt32(Console.ReadLine());
+            Console.Write("2. Sayýyý Girin : ");
+            sayi2 = Convert.ToInt32(Console.ReadLine());
+            kalan=sayi1%sayi2;
+ 
+            if(kalan==0)
+            {
+                Console.WriteLine("{0} sayýsý {1} sayýsýna tam bölünüyor.",sayi1,sayi2);
+            }
+            else
+            {
+                Console.WriteLine("{0} sayýsý {1} sayýsýna tam bölünmüyor. Kalan {2}. ",sayi1,sayi2,kalan);
+            }
+            Console.ReadKey();
+        }
