@@ -1,0 +1,25 @@
+int s1, s2, s3;
+            Console.Write("1. sayýyý girin : ");
+            s1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("2. sayýyý girin : ");
+            s2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("3. sayýyý girin : ");
+            s3 = Convert.ToInt32(Console.ReadLine());
+ 
+            if(s1>s2 && s1>s3)
+            {
+                Console.WriteLine("1. sayý en büyük");
+            }
+            else if (s2 > s1 && s2 > s3)
+            {
+                Console.WriteLine("2. sayý en büyük");
+            }
+            else if (s3 > s1 && s3 > s2)
+            {
+                Console.WriteLine("3. sayý en büyük");
+            }
+            else
+            {
+                Console.WriteLine("Farklý sayýlar girin");
+            }
+            Console.ReadKey();
