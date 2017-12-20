@@ -1,0 +1,9 @@
+ static void Main(string[] args)
+        {
+            string metin;
+            Console.Write("Metni Girin : ");
+            metin = Console.ReadLine();
+            string yenimetin = metin.Replace(',', '.');
+            Console.WriteLine(yenimetin);
+            Console.ReadKey();
+        }
