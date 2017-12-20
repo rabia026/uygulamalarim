@@ -1,0 +1,17 @@
+static void Main(string[] args)
+        {
+            int yas, fark;
+            Console.Write("Yaþýnýzý giriniz : ");
+            yas = Convert.ToInt32(Console.ReadLine());
+            
+            if (yas>=18)
+            {
+                Console.WriteLine("Ehliyet alabilirsiniz.");
+            }
+            else
+            {
+                fark = 18 - yas;
+                Console.WriteLine("Ehliyet alamazsýnýz.{0} yýl daha beklemeniz gerekiyor.",fark);
+            }
+            Console.ReadKey();
+        }
