@@ -1,0 +1,7 @@
+float cevre, pi = 3.14f;
+int yaricap;
+Console.Write("Yarýçap uzunluðunu giriniz :");
+yaricap = Convert.ToInt32(Console.ReadLine());
+cevre= 2* pi * yaricap ;
+Console.WriteLine("Çemberin Çevresi= {0}",cevre);
+Console.ReadKey();
