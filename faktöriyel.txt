@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace faktoriyel
+{
+class Program
+{
+static void Main(string[] args)
+{
+ 
+int sayi;
+int sonuc = 1;
+Console.Write("Faktoriyeli alýnacak saýyý giriniz: ");
+sayi = Convert.ToInt32(Console.ReadLine());
+for (int i = 1; i < = sayi; i++)
+{
+sonuc = sonuc * i;
+}
+Console.WriteLine("Sayýnýn Faktoriyeli: " + sonuc);
+ 
+Console.ReadKey();
+}
+}
+}
