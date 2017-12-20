@@ -1,0 +1,44 @@
+int sayi1,sayi2;
+char opt;
+double sonuc;
+ 
+Console.WriteLine("\n\tMenu");
+Console.WriteLine("\nTOPLAMA ÝÇÝN + TUÞUNA BASIN");
+Console.WriteLine("ÇIKARMA ÝÇÝN - TUÞUNA BASIN");
+Console.WriteLine("ÇARPMA ÝÇÝN * TUÞUNA BASIN");
+Console.WriteLine("BÖLME ÝÇÝN + TUÞUNA BASIN");
+ 
+Console.Write("\n\n Birinci Sayýyý Girin :");
+sayi1 = Convert.ToInt32(Console.ReadLine());
+ 
+Console.Write(" Ýkinci Sayýyý Girin :");
+sayi2 = Convert.ToInt32(Console.ReadLine());
+ 
+Console.Write("\nÝÞLEM YAPMAK ÝÇÝN BÝR OPERATÖR SEÇÝN:\t");
+opt = Convert.ToChar(Console.ReadLine());
+ 
+if (opt == '+')
+{
+sonuc = sayi1 + sayi2;
+Console.WriteLine("\n{0} + {1} = {2}", sayi1, sayi2, sonuc);
+}
+else if (opt == '-')
+{
+sonuc = sayi1 - sayi2;
+Console.WriteLine("\n{0} - {1} = {2}", sayi1, sayi2, sonuc);
+}
+else if (opt == '*')
+{
+sonuc = sayi1 * sayi2;
+Console.WriteLine("\n{0} x {1} = {2}", sayi1, sayi2, sonuc);
+}
+else if (opt == '/')
+{
+sonuc =(double) sayi1 / sayi2;
+Console.WriteLine("\n{0} / {1} = {2}", sayi1, sayi2, sonuc);
+}
+else
+{
+Console.WriteLine("YANLIÞ OPERATÖR GÝRDÝNÝZ!");
+}
+Console.ReadKey();
