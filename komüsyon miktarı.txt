@@ -1,0 +1,11 @@
+double malFiyati = 0, komisyonMiktari = 0,toplamKomisyon=0;
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write("{0}. Malýn Fiyatýný Giriniz : ",i+1);
+                malFiyati = Convert.ToDouble(Console.ReadLine());
+                if (malFiyati > 50) komisyonMiktari = malFiyati * 0.02;
+                else komisyonMiktari = malFiyati * 0.03;
+                Console.WriteLine("{0}. Mal Ýçin Komisyon Miktarý : {1}",i+1,komisyonMiktari);
+                toplamKomisyon += komisyonMiktari;
+            }
+            Console.WriteLine("Toplam Komisyon Miktarý : {0}",toplamKomisyon);
