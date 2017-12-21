@@ -1,0 +1,20 @@
+public class Main {
+	public static void main(String[] args) {	
+		
+        int sayi = 44;
+        String veri = "java";
+        double kusurat =54.56;
+        char karakter = 'A';
+        boolean durum = true;
+        ArrayList liste = new ArrayList();
+        liste.add(sayi);
+        liste.add(veri);
+        liste.add(kusurat);
+        liste.add(karakter);
+        liste.add(durum);
+        
+        for(int d =0;d<liste.size();d++){
+        	System.out.println(liste.get(d));
+        }
+}
+}
