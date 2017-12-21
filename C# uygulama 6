@@ -1,0 +1,12 @@
+class DiziListele
+{
+public static void Main(string[] args)
+{
+string[] strDizi={"Ali","Zekiye","Cemil", "Kemal"};
+int son = strDizi.Length-1;
+for(int i=son; i>=0; --i)
+{
+Console.WriteLine(strDizi[i]);
+}
+}
+}
