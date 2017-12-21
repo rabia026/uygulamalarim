@@ -1,0 +1,14 @@
+
+            int[,] dizi = new int[20, 100];
+            Random rnd = new Random();
+            for (int i = 0; i < 20; i++)
+            {
+                int satirToplami = 0;
+                for (int j = 0; j < 100; j++)
+                {
+                    dizi[i, j] = rnd.Next(0, 100);
+                    satirToplami += dizi[i, j];
+                }
+                Console.WriteLine(satirToplami);
+            }
+            Console.ReadKey();
