@@ -1,0 +1,24 @@
+using System;
+class DiziArama
+{
+public static void Main(string[] args)
+{
+string[] strDizi={"Ahmet", "Mehmet", "Ali", "Kemal"};
+string kelime = "Kemal";
+if (ara(strDizi,kelime))
+Console.WriteLine(kelime+" Dizide Bulundu");
+else
+Console.WriteLine(kelime+" Dizide Bulunamadı");
+kelime = "Yılmaz";
+if (ara(strDizi,kelime))
+Console.WriteLine(kelime+" Dizide Bulundu");
+else
+Console.WriteLine(kelime+" Dizide Bulunamadı");
+}
+public static bool ara(string[] dizi, string aranan)
+{
+for(int i=0; i<dizi .Length; ++i)
+if (aranan.Equals(dizi[i])) return true;
+return false;
+}
+}
