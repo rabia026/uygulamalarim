@@ -1,0 +1,17 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            int adet = 0;
+            for (int i = 0; i < = 100; i++)
+            {
+                if (i % 5 == 0)
+                {
+                    Console.WriteLine(i);
+                    adet += 1;
+                }
+            }
+            Console.WriteLine("5 e bölünen sayıların adeti= " + adet);
+            Console.ReadKey();
+        }
+    }
