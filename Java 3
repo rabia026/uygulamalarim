@@ -1,0 +1,25 @@
+Source code	   
+package asd;
+import java.util.*;
+public class km {
+	/**
+	 * @author ilkerguven - ilkerguven.com
+	 */
+	public static void main(String[] args) {
+		Scanner oku=new Scanner(System.in);
+		double tl;
+		double km;
+ 
+		System.out.println("Arabanın deposuna en son kaç TL'lik yakıt doldurdunuz.");
+		tl=oku.nextDouble();
+ 
+	do{	System.out.println("Arabanın deposuna en son doldurduğunuz yakıt ile kaç KM gittiniz?");
+		km=oku.nextDouble();
+		if (km>1000){
+			System.out.println("KM bilgisini yanlış girdiniz. Km 1000'den fazla olamaz.");
+		}
+	}while(km>1000);
+ 
+		System.out.printf("Aracınız km başına %.3f TL yakmaktadır.",tl/km);
+	}
+}
