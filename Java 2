@@ -1,0 +1,31 @@
+package odev;
+import java.util.*;
+public class burc {
+	/**
+	 * @author ilkerguven - ilkerguven.com
+	 */
+	public static void main(String[] args) {
+		Scanner oku=new Scanner(System.in);
+		int gun;
+		int ay;
+ 
+		System.out.println("Doğum gününüzü yazın");
+		gun=oku.nextInt();
+ 
+		System.out.println("Doğum ayınızı yazın(rakam olarak)");
+		ay=oku.nextInt();
+ 
+		burc(gun,ay);
+	}
+ 
+		public static void burc(int gun, int ay){
+ 
+		if((gun<22 & ay==9) || (gun>23 & ay==8) ){
+			System.out.print("Burcunuz: Başak");
+		}
+		if((gun>23 & ay==10) ||(gun<21 & ay==11) ){
+			System.out.print("burcunuz: Akrep");
+		}
+	}
+}
+ 
