@@ -1,0 +1,21 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            int enbuyuk = 0;
+            int enkucuk = 100;
+            int sayi;
+            for (int i = 1; i < 11; i++)
+            {
+                Console.Write(i+". sayıyı giriniz= ");
+                sayi = Convert.ToInt32(Console.ReadLine());
+                if (sayi < enkucuk)
+                    enkucuk = sayi;
+                if (sayi > enbuyuk)
+                    enbuyuk = sayi;
+            }
+            Console.WriteLine("En büyük sayı= "+enbuyuk);
+            Console.WriteLine("En küçük sayı= " + enkucuk);
+            Console.ReadKey();
+        }
+    }
