@@ -1,0 +1,16 @@
+static void Main(string[] args)
+        {
+            int sayi=0, toplam=0;
+            while(true)
+            {
+                Console.WriteLine("Sayı girin");
+                sayi=Convert.ToInt32(Console.ReadLine());
+                if(sayi&lt;0)
+                {
+                    break;
+                }
+                toplam+=sayi;
+            }
+            Console.WriteLine("Girilen sayıların toplamı :"+toplam);
+            Console.ReadKey();
+        }
